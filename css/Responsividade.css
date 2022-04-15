@@ -1,0 +1,36 @@
+@media screen and (max-width: 640px) {
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    header nav{
+        font-size: 13px;
+        margin: 15px 0;
+    }
+
+
+    main .filme-principal .container{
+        margin-top: 30px;
+        width: 80%;
+    }
+
+    .filme-principal .titulo{
+        font-size: 30px;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 250px;
+    }
+    .carrossel{
+        margin-top: 5px;
+    }
+    .carrossel .item{
+        min-width: 360px;
+        min-height: 400px;
+    }
+
+}
